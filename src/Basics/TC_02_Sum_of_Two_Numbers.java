@@ -1,6 +1,6 @@
 package Basics;
 
-public class Sum_of_Two_Numbers {
+public class TC_02_Sum_of_Two_Numbers {
     public static void main(String[] args) {
         int a = 29;
         int c = 69;

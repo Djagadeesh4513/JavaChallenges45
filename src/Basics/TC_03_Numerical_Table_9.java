@@ -1,6 +1,6 @@
 package Basics;
 
-public class Numerical_Table_9 {
+public class TC_03_Numerical_Table_9 {
     public static void main(String[] args) {
         int num = 20;
 
