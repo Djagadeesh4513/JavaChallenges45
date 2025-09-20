@@ -9,5 +9,6 @@ public class TC_04_BODMAS {
 
         int b = ((10*2/5)*3);
         System.out.println(b);
+
     }
 }
