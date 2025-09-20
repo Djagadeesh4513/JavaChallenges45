@@ -1,6 +1,6 @@
 package Basics;
 
-public class TC_10_Ternary_Operator {
+public class TC_11_Ternary_Operator {
     public static void main(String[] args) {
         int ap = 10;
         int ts = 23;
