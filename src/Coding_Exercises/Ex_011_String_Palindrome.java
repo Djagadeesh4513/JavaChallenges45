@@ -2,7 +2,7 @@ package Coding_Exercises;
 
 import java.util.Scanner;
 
-public class Ex_011_String_Reversal {
+public class Ex_011_String_Palindrome {
     public static void main(String[] args) {
         Scanner scr = new Scanner(System.in);
         String word = scr.nextLine();
@@ -13,7 +13,13 @@ public class Ex_011_String_Reversal {
             empty = empty + word.charAt(length);
             length--;
         }
-        System.out.println(empty);
-
+        if(word.equals(empty))
+        {
+            System.out.println("Palindrome");
+        }
+        else
+        {
+            System.out.println("Not a Palindrome");
+        }
     }
 }
