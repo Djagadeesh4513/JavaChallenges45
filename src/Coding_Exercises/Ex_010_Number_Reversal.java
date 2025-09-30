@@ -1,5 +1,4 @@
 package Coding_Exercises;
-
 import java.util.Scanner;
 
 public class Ex_010_Number_Reversal {
@@ -10,6 +9,12 @@ public class Ex_010_Number_Reversal {
         //Step 2:- 471%10 = 1
         //Step 3:- 47%10 = 7
         //Step 4:- 4%10 = 4
+        System.out.println("Enter a positive Integer number");
+
+        if(!sc.hasNextInt())
+        {
+            System.out.println("Only +ve Integer values are allowed");
+        }
         int k = sc.nextInt();
         int ans=0;
 
