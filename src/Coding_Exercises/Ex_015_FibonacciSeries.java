@@ -1,6 +1,4 @@
 package Coding_Exercises;
-
-import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 public class Ex_015_FibonacciSeries {
