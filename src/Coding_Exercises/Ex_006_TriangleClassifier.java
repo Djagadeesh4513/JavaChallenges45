@@ -2,7 +2,7 @@ package Coding_Exercises;
 
 import java.util.Scanner;
 
-public class Ex_006_ClassifyTriangle {
+public class Ex_006_TriangleClassifier {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Side 1: ");

@@ -12,14 +12,14 @@ public class Ex_011_String_Palindrome {
         }
         String notes = scr.nextLine();
         int length = notes.length()-1;
-        String empty = "";
+        String palin = "";
 
         while(length>=0)
         {
-            empty = empty + notes.charAt(length);
+            palin = palin + notes.charAt(length);
             length--;
         }
-        if(notes.equals(empty))
+        if(notes.equals(palin))
         {
             System.out.println("Its a Palindrome string");
         }

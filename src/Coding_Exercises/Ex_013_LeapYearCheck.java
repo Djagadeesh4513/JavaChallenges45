@@ -2,7 +2,7 @@ package Coding_Exercises;
 
 import java.util.Scanner;
 
-public class Ex_013_Leap_Year {
+public class Ex_013_LeapYearCheck {
     public static void main(String[] args) {
         Scanner sca = new Scanner(System.in);
 

@@ -32,6 +32,5 @@ public class Ex_007_FactorialOfNum {
         {
             System.out.println("Only positive values are allowed");
         }
-
     }
 }
