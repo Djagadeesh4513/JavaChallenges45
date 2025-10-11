@@ -1,4 +1,4 @@
-package Coding_Exercises;
+package Coding_Exercises.SolvingProblems;
 public class Ex_014_Vowels_Consonants {
     public static void main(String[] args) {
         String sss = "Interview Questions";

@@ -1,4 +1,4 @@
-package Coding_Exercises;
+package Coding_Exercises.SolvingProblems;
 
 public class Ex_004_IncrementOperators {
     public static void main(String[] args) {

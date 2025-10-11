@@ -1,4 +1,4 @@
-package Coding_Exercises;
+package Coding_Exercises.SolvingProblems;
 import java.util.Scanner;
 
 public class Ex_015_FibonacciSeries {

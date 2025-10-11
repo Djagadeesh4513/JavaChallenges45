@@ -1,4 +1,4 @@
-package Coding_Exercises;
+package Coding_Exercises.SolvingProblems;
 
 public class Ex_002_MaxOf3NumTernary {
     public static void main(String[] args) {

@@ -1,8 +1,8 @@
-package Coding_Exercises;
+package Coding_Exercises.SolvingProblems;
 
 import java.util.Scanner;
 
-public class Ex_007_FactorialOfNum {
+public class Ex_008_FactorialOfNum_While {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
@@ -22,9 +22,10 @@ public class Ex_007_FactorialOfNum {
 
         if (result>0)
         {
-            for (int i = result; i >= 1; i--)
+            while(result >= 1)
             {
-                ans = ans * i;
+                ans = ans * result;
+                result--;
             }
             System.out.println(ans);
         }
@@ -32,5 +33,6 @@ public class Ex_007_FactorialOfNum {
         {
             System.out.println("Only positive values are allowed");
         }
+
     }
 }

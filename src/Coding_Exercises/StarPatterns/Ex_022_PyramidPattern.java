@@ -1,4 +1,4 @@
-package Coding_Exercises;
+package Coding_Exercises.StarPatterns;
 
 import java.util.Scanner;
 public class Ex_022_PyramidPattern {
@@ -7,13 +7,14 @@ public class Ex_022_PyramidPattern {
         System.out.println("Enter no. of rows you want to print a Pyramid triangle");
         int test = scx.nextInt();
 
-        for (int r=1;r<=test;r++)
+        for (int i=1;i<=test;i++)
         {
-            for(int s=1;s<=test-r;s++)
+            for(int j=1;j<=test-i;j++)
             {
-                System.out.print(" ");
+                System.out.print("-");
             }
-            for(int c=1;c<=((r*2)-1);c++)
+
+            for(int k=1;k<=((i*2)-1);k++)
             {
                 System.out.print("*");
             }

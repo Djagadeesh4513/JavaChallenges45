@@ -1,8 +1,8 @@
-package Coding_Exercises;
+package Coding_Exercises.StarPatterns;
 
 import java.util.Scanner;
 
-public class Ex_021_LeftTriangleStarPattern {
+public class Ex_023_InvertedLeftSided_RightAngleTriangle_StarPattern {
     public static void main(String[] args) {
         Scanner lu = new Scanner(System.in);
        
@@ -11,9 +11,9 @@ public class Ex_021_LeftTriangleStarPattern {
             System.out.println("Only +ve values are allowed");
         }
         int times = lu.nextInt();
-        for(int d=times;d>=1;d--)
+        for(int i=times;i>=1;i--)
         {
-            for(int n=1;n<=d;n++)
+            for(int j=1;j<=i;j++)
             {
                 System.out.print(" * ");
             }

@@ -1,6 +1,5 @@
-package Coding_Exercises;
+package Coding_Exercises.SolvingProblems;
 
-import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 public class Ex_012_Prime_Number {
