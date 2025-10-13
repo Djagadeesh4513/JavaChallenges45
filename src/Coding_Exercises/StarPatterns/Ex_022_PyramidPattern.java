@@ -11,7 +11,7 @@ public class Ex_022_PyramidPattern {
         {
             for(int j=1;j<=test-i;j++)
             {
-                System.out.print("-");
+                System.out.print(" ");
             }
 
             for(int k=1;k<=((i*2)-1);k++)
